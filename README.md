@@ -34,3 +34,7 @@ g++ -o task_2_test task_2_test.cpp
 ```
 All test cases passed!
 ```
+
+## Output
+
+![All test cases passed](Screenshot%202026-07-14%20073336.png)
