@@ -37,4 +37,4 @@ All test cases passed!
 
 ## Output
 
-![All test cases passed](Screenshot%202026-07-16%20062244.png)
+![All test cases passed](Screenshot%202026-07-16%20062805.png)
