@@ -21,7 +21,7 @@ string solve(int n, int x)
     return result == "Valley" ? "Mountain" : "Valley";
 }
 
-string get_crease(int n, int x)
+string getCrease(int n, int x)
 {
     int total = (1 << n) - 1;
 
@@ -29,9 +29,4 @@ string get_crease(int n, int x)
         throw invalid_argument("Invalid input");
 
     return solve(n, x);
-}
-
-string getCrease(int n, int x)
-{
-    return get_crease(n, x);
 }
