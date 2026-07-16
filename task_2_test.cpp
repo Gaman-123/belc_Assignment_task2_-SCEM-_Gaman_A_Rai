@@ -14,6 +14,12 @@ int main() {
 
     assert(getCrease(4, 11) == "Mountain");
 
+    // Assignment test cases
+    assert(getCrease(1, 1)   == "Valley");
+    assert(getCrease(3, 6)   == "Mountain");
+    assert(getCrease(5, 16)  == "Valley");
+    assert(getCrease(8, 255) == "Mountain");
+
     cout << "All test cases passed!" << endl;
 
     return 0;
